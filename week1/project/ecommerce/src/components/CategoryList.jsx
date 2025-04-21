@@ -13,6 +13,7 @@ function CategoryList({ categories, selectedCategory, onSelectCategory }) {
           }`}
         >
           {category}
+          {selectedCategory === category && <span style={{ marginLeft: '6px' }}>✖</span>}
         </button>
       ))}
     </div>
