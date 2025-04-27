@@ -52,9 +52,20 @@ describe("Categories", () => {
      * We will give you a couple of steps here, this does not mean that every step is 1 line of code!
      */
     // 1. Check that no category is selected
+    cy.get('[data-testid="categories-list"]').within(() => {
+      cy.get('[data-selected="true"]').should("have.length", 0);
+    });
     // 2. Click a category
+    cy.get('[data-elementid="electronics"]').click();
+
     // 3. Check that that category is selected
+    cy.get('[data-selected="true"]').should("have.length", 1);
+
     // 4. Click a different category
     // 5. Check that only the new category is selected
+    cy.get('[data-elementid="jewelery"]').click();
+    cy.get('[data-selected="true"]').should("have.length", 1);
+    cy.get('[data-elementid="electronics"]').should("have.attr", "data-selected", "false");
   });
-});
+  });
+
