@@ -1,0 +1,30 @@
+.not-found {
+    text-align: center;
+    padding: 80px 80px;
+    background-color: #f8f9fa;
+    margin: 30px;
+   
+  }
+  
+  .not-found h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .back-home {
+    background-color: #c9bdbd;
+    color: #413c3c;
+    text-decoration: none;
+    width: 180px;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home:hover {
+    background-color: #ddd;
+  }

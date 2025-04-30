@@ -1,0 +1,21 @@
+.favourites-container {
+
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  .favourites-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .favourites-empty {
+    text-align: center;
+    color: #777;
+    font-size: 18px;
+  }
+  
+  

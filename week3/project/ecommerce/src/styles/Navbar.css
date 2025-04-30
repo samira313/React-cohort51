@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #c7c5c5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    border-radius: 10px;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #1d1c1c;
+  }
+  
